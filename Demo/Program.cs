@@ -1,4 +1,5 @@
-﻿using Demo.Example.DemoSerial;
+﻿using Demo.Example.DemoGPIO;
+using Demo.Example.DemoSerial;
 using System;
 using System.Text;
 using System.Threading;
@@ -11,7 +12,12 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            DemoSerial.Run();
+            //gpio
+            DemoPinMode.Run();
+            ////serial
+            //DemoSerial.Run();
+            ////serial DemoByIOPort
+            //DemoByIOPort.Run();
         }
     }
 }
