@@ -28,7 +28,5 @@ namespace WiringOPSharp
         [DllImport("libwiringPi.so", EntryPoint = "serialGetchar")]
         public static extern int SerialGetchar(int fd);
 
-        [DllImport("libwiringPi.so", EntryPoint = "write")]
-        public static extern int Write(int fd, byte[] msg,int len);
     }
 }
