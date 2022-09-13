@@ -13,10 +13,8 @@ namespace Demo.Example.DemoSerial
     public class DemoByIOPort
     {
 
-
-        public static void getLight()
+        public static void Run()
         {
-
             SerialPort serial = new SerialPort("/dev/ttyS3", 9600, Parity.None, 8, StopBits.One);
             serial.Open();
             // DataReceived是串口类的一个事件，通过+=运算符订阅事件，如果串口接收到数据就触发事件，调用DataReceive_Method事件处理方法

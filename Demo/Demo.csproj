@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="7.0.0-preview.7.22375.6" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\WiringOPSharp\WiringOPSharp.csproj" />
   </ItemGroup>
 
