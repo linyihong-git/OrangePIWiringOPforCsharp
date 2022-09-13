@@ -27,7 +27,7 @@ c#   .net6，引用WiringOP c++类库进行 香橙派引脚 gpio,i2c通讯,Seria
 #### 使用说明
 
 1.  本人香橙派使用ubuntn系统
-2.  xxxx
+2.  见使用说明文章：https://blog.csdn.net/qq_16005627/article/details/126817568?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22126817568%22%2C%22source%22%3A%22qq_16005627%22%7D
 3.  xxxx
 
 #### 参与贡献
